@@ -1,0 +1,48 @@
+/* Main Asset Settings */
+.header {
+    width: 75%;
+    max-width: 900px;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
+    font-style: italic;
+    color: rgb(157, 157, 157)
+}
+
+/* Navbar Settings */
+.navbar {
+    background-color: white !important;
+}
+
+li a {
+    color: #9ec9e2 !important;
+}
+
+li a:hover {color: #6fa9d2 !important;}
+
+@media (min-width: 992px) {
+    .navbar{
+        font-size: 1.5rem;
+    }
+
+    .nav-item {padding: 15px;}
+}
+
+@media (max-width: 992px) {
+    .dropdown-menu{
+        border: none;
+    }
+}
+
+/* Footer Settings */
+footer {
+    color: #D5DEE4;
+}
+
+.credits {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
