@@ -41,6 +41,30 @@ footer {
     color: #D5DEE4;
 }
 
+.socials {
+    width: 3%;
+    height: auto;
+}
+
+div a {margin-right: 50px;}
+
+div a:last-child {
+    margin-right: 0;
+}
+
+
+@media (max-wdith: 1200px) {
+    .socials{
+        width: 20%;
+    }
+}
+
+@media (max-width: 576px) {
+    .socials{
+        width: 8%;
+    }
+}
+
 .credits {
     display: flex;
     gap: 50px;
