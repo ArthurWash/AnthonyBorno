@@ -202,7 +202,9 @@ div a:last-child {
     box-shadow: 10px 10px 10px gray;
 }
 
-@media (max-width: 492px) {
+.about-p {min-width: 300px;}
+
+@media (max-width: 492px), screen and (max-width: 1024px) and (orientation: portrait) {
     .about-container {
         justify-content: center;
         align-items: center;
