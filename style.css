@@ -187,3 +187,38 @@ div a:last-child {
     gap: 50px;
     justify-content: center;
 }
+
+/* About Me Page Settings */
+.about-container {
+    padding-left: 20rem;
+    padding-right: 20rem;
+
+}
+
+.about-img {
+    float: right;
+    width: 300px;
+    margin-left: 20px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+@media (max-width: 492px) {
+    .about-container {
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+        padding: 20px;
+        text-align: justify;
+    }
+    
+    .about-img {
+        float: none;
+        margin-bottom: 40px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1 {margin-bottom: 30px;}
+}
