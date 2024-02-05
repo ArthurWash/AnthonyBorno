@@ -104,7 +104,7 @@ li a:hover {color: #6fa9d2 !important;}
     padding: 10px; /* Adjust the padding to control the white space */
     max-width: 600px; /* Set a fixed width for the container */
     margin: 0 auto; /* Center the container horizontally */
-    box-shadow: 5px 5px 30px lightgray;
+    box-shadow: 10px 10px 20px lightgray;
   }
   
   .carousel-inner {
@@ -192,7 +192,6 @@ div a:last-child {
 .about-container {
     padding-left: 20rem;
     padding-right: 20rem;
-
 }
 
 .about-img {
@@ -202,7 +201,7 @@ div a:last-child {
     box-shadow: 10px 10px 10px gray;
 }
 
-.about-p {min-width: 300px;}
+.about-p {min-width: 800px;}
 
 @media (max-width: 492px), screen and (max-width: 1024px) and (orientation: portrait) {
     .about-container {
