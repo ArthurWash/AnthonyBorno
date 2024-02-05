@@ -189,9 +189,9 @@ div a:last-child {
 }
 
 /* About Me Page Settings */
-.about-container {
-    padding-left: 20rem;
-    padding-right: 20rem;
+.about-content {
+    width: 60%;
+    margin: 0 auto;
 }
 
 .about-img {
@@ -201,17 +201,8 @@ div a:last-child {
     box-shadow: 10px 10px 10px gray;
 }
 
-.about-p {min-width: 800px;}
-
 @media (max-width: 492px), screen and (max-width: 1024px) and (orientation: portrait) {
-    .about-container {
-        justify-content: center;
-        align-items: center;
-        padding-left: 0;
-        padding-right: 0;
-        padding: 20px;
-        text-align: justify;
-    }
+    .about-content {width: 80%;}
     
     .about-img {
         float: none;
