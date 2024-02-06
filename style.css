@@ -21,10 +21,6 @@ h1 {
     color: rgb(157, 157, 157)
 }
 
-.dropdown-menu {
-    border-color: #9ec9e2;
-}
-
 /* Navbar Settings */
 .navbar {
     background-color: white !important;
@@ -47,6 +43,18 @@ h1 {
 .dropdown-menu {
     animation: dropdownAnimation 0.2s ease-in-out forwards;
     transform-origin: top center;
+    border-color: #9ec9e2;
+}
+
+/* Change the background color on hover */
+.dropdown-menu a:hover {
+    border-radius: 10px;
+}
+
+/* Remove the blue outline on click */
+.dropdown-menu a:focus {
+    background-color: #9ec9e2;
+    color: white !important;
 }
 
 @keyframes dropdownCloseAnimation {
@@ -187,6 +195,17 @@ div a:last-child {
     gap: 50px;
     justify-content: center;
 }
+
+/* Gallery Settings */
+.lb-nav .lb-next {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    cursor: pointer;
+    background: url('path-to-your-lightbox2-images-folder/next.png') no-repeat right center;
+  }
 
 /* About Me Page Settings */
 .about-content {

@@ -1,3 +1,5 @@
+/* Carousel Setup */
+
 let carouselInnerDiv = document.querySelector('.carousel-inner');
 
 // Fetch the list of image filenames from the PHP script
