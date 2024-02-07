@@ -9,7 +9,7 @@ lightbox.option({
         var $link = $('<a>')
           .attr('href', 'https://anthonyborno.com/' + image.original)
           .attr('data-lightbox', 'my-gallery');
-        var $img = $('<img>').attr('src', 'https://anthonyborno.com/' + image.thumbnail);
+        var $img = $('<img>').attr('src', 'https://anthonyborno.com/' + image.original);
         $link.append($img);
         $gallery.append($link);
       });
@@ -18,7 +18,5 @@ lightbox.option({
         rowHeight: 300,
         margins: 20,
         lastRow: 'nojustify',
-      }).on('jg.complete', function () {
-        $('#my-gallery img').css('border-bottom', '20px solid transparent');
       });
   });
