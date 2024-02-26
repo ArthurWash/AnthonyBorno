@@ -252,3 +252,9 @@ div a:last-child {
 
     h1 {margin-bottom: 30px;}
 }
+
+/* Thank you Page Settings */
+.thank_you {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
