@@ -253,6 +253,27 @@ div a:last-child {
     h1 {margin-bottom: 30px;}
 }
 
+/* Contact Page Settings */
+form {
+    width: 25%;
+    margin-bottom: 100px;
+}
+#message {
+    height: 150px;
+    resize: both;
+}
+
+#submit {
+    margin-top: 20px;
+    margin-left: 50%;
+    width: 100px;
+    transform: translateX(-50%);
+    background-color: #9ec9e2;
+    color: white;
+    border-color: #9ec9e2;
+    border-radius: 5px;
+}
+
 /* Thank you Page Settings */
 .thank_you {
     margin-top: 100px;
