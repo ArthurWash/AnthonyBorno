@@ -227,6 +227,8 @@ div a:last-child {
   }
 
 /* About Me Page Settings */
+#about-main{margin-bottom: 200px;}
+
 .about-content {
     width: 60%;
     margin: 0 auto;
@@ -272,6 +274,16 @@ form {
     color: white;
     border-color: #9ec9e2;
     border-radius: 5px;
+}
+
+/* form tablet screens */
+@media (max-width: 830px) {
+    form {width: 60%;}
+}
+
+/* form mobile screens */
+@media (max-width: 492px) {
+    form {width: 80%;}
 }
 
 /* Thank you Page Settings */
