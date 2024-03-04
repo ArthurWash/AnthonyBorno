@@ -83,6 +83,8 @@ li a:hover {color: #6fa9d2 !important;}
         font-size: 1.5rem;
     }
 
+    .dropdown-menu {border: none;}
+
     .nav-item {padding: 15px;}
 }
 
@@ -284,6 +286,7 @@ form {
 /* form mobile screens */
 @media (max-width: 492px) {
     form {width: 80%;}
+    #contactH1 {font-size: 1.5rem;}
 }
 
 /* Thank you Page Settings */
