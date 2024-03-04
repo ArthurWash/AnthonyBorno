@@ -11,7 +11,7 @@ function loadGallery(galleryId) {
           var $link = $('<a>')
               .attr('href', 'https://anthonyborno.com/' + image.original)
               .attr('data-lightbox', galleryId);
-          var $img = $('<img>').attr('src', 'https://anthonyborno.com/' + image.original);
+          var $img = $('<img>').attr('src', 'https://anthonyborno.com/' + image.original)
           $link.append($img);
           $gallery.append($link);
       });
