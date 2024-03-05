@@ -5,6 +5,7 @@ This is a website I created for my client Anthony Borno for his photography busi
 ## Table of Contents
 
 - [Features](#features)
+- [Tech](#Technology Used)
 - [License](#license)
 
 ## Features
@@ -12,6 +13,13 @@ This is a website I created for my client Anthony Borno for his photography busi
 - Carousel element that automatically scrolls through a directory holding the client's images.
 - Gallery pages for various different categories, fetched from the client's server via JavaScript.
 - Email form for users to easily send an email to Anthony about potential work.
+
+## Technology Used
+- Bootstrap CDN
+- Justified Gallery Library
+- JQuery
+- PHP (back-end)
+- JSON (front-end)
 
 ## License
 
